@@ -56,7 +56,7 @@ class Order extends React.Component {
                     className="order"
                     component="ul"
                     transitionName="order"
-                    transitonEnterTimeout={500}
+                    transitionEnterTimeout={500}
                     transitionLeaveTimeout={500}
                     >
                     {orderIds.map(this.renderOrder)}
