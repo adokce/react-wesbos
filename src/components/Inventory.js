@@ -79,7 +79,7 @@ class Inventory extends React.Component {
     renderLogin() {
         return(
             <nav className="login">
-                <p>Sign in to manage your store's inventory</p>
+                <p>Sign in to manage your stores inventory</p>
                 <button className="facebook" onClick={() => this.authenticate('facebook')}>Log In with Facebook</button>
             </nav>
         )
